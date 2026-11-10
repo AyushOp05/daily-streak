@@ -1,46 +1,52 @@
-# 🔥 Daily Streak & Dev Tracker
+# 🔥 3-Year GitHub Contribution Streak & Dev Vault
 
-[![Daily Streak](https://img.shields.io/badge/Streak-Active-brightgreen?style=for-the-badge&logo=github)](https://github.com/AyushOp05/daily-streak)
-[![Total Updates](https://img.shields.io/badge/Total%20Updates-2-blue?style=for-the-badge)](https://github.com/AyushOp05/daily-streak)
-[![Streak Days](https://img.shields.io/badge/Current%20Streak-1%20Days-orange?style=for-the-badge&logo=fire)](https://github.com/AyushOp05/daily-streak)
-[![Automated Workflow](https://github.com/AyushOp05/daily-streak/actions/workflows/streak.yml/badge.svg)](https://github.com/AyushOp05/daily-streak/actions)
+[![3-Year Streak Goal](https://img.shields.io/badge/Goal-3%20Years%20(1095%20Days)-blueviolet?style=for-the-badge&logo=target)](https://github.com/AyushOp05/daily-streak)
+[![Streak Days](https://img.shields.io/badge/Current%20Streak-Day%201-orange?style=for-the-badge&logo=fire)](https://github.com/AyushOp05/daily-streak)
+[![Total Pushes](https://img.shields.io/badge/Pushes-2-brightgreen?style=for-the-badge&logo=github)](https://github.com/AyushOp05/daily-streak)
+[![Workflow Status](https://github.com/AyushOp05/daily-streak/actions/workflows/streak.yml/badge.svg)](https://github.com/AyushOp05/daily-streak/actions)
 
-Welcome to **Ayush's Daily Streak Repository**! 🚀  
-This repository maintains a continuous GitHub contribution streak by automatically publishing daily computer science insights, programming tips, and activity logs.
-
----
-
-### 📊 Streak Overview
-
-| Metric | Status |
-| :--- | :--- |
-| **🔥 Current Streak** | **1 Days** |
-| **📈 Total Updates** | **2** |
-| **🕒 Last Updated (IST)** | `2026-11-10 03:27:53 PM IST` |
-| **🌐 Last Updated (UTC)** | `2026-11-10 09:57:53 UTC` |
-| **👤 Maintainer** | [@AyushOp05](https://github.com/AyushOp05) |
+Welcome to the **3-Year Unbroken GitHub Streak Tracker** of [@AyushOp05](https://github.com/AyushOp05)!  
+This project is engineered to publish daily computer science concepts, algorithmic paradigms, system design architecture principles, and dev insights for **1,095 consecutive days (2026 - 2029)**.
 
 ---
 
-### 💡 Today's Developer Byte
+### ⏳ 3-Year Progress Tracker
+`[░░░░░░░░░░░░░░░░░░░░]` **1 / 1095 Days** (0.09%)
 
-> **Topic:** `Clean Code`  
-> **Insight:** The Boy Scout Rule: Always leave the code behind in a better state than you found it.
-
----
-
-### 📜 Recent Activity Log
-
-| Date | Category | Key Takeaway |
-| :--- | :--- | :--- |
-| 2026-11-10 | **Clean Code** | The Boy Scout Rule: Always leave the code behind in a better state than you found it. |
-| 2026-11-10 | **Python** | Use list comprehensions and generator expressions for concise and memory-efficient data processing in Python. |
+| Target Goal | Start Date | Target Completion Date | Status |
+| :--- | :--- | :--- | :--- |
+| **1,095 Days (3 Years)** | `2026-11-10` | `2029-11-10` | 🟢 **ACTIVE & AUTOMATED** |
 
 ---
 
-### ⚙️ How It Works
+### 🏆 3-Year Milestone Roadmap
+- [ ] **Day 7:** Week 1 Kickoff
+- [ ] **Day 30:** 1 Month Unbroken
+- [ ] **Day 100:** 100-Day Century
+- [ ] **Day 365:** Year 1 Milestone
+- [ ] **Day 730:** Year 2 Master
+- [ ] **Day 1095:** Year 3 Legend
 
-1. **GitHub Actions Scheduled Cron:** Runs automatically every day in GitHub's cloud environment.
-2. **Dynamic Generation:** Runs [`scripts/daily_update.py`](scripts/daily_update.py) to log activity and curate tech trivia.
-3. **Verified Contribution:** Commits are pushed directly with author credentials matching `@AyushOp05`, counting directly towards the GitHub contribution streak.
-4. **Zero Maintenance:** Operates 24/7 without requiring a local machine to be left turned on.
+---
+
+### 💡 Day 1 Tech Byte: `Hash Maps`
+> **Category:** `Data Structures`  
+> **Key Insight:** Hash maps achieve average O(1) time complexity by mapping keys to bucket indices using a hash function. Collision resolution commonly uses chaining or open addressing (linear/quadratic probing).
+
+---
+
+### 📜 Recent 10 Daily Dispatches
+
+| Day & Date | Category | Topic | Insight |
+| :--- | :--- | :--- | :--- |
+| Day 1 (2026-11-10) | `Data Structures` | **Hash Maps** | Hash maps achieve average O(1) time complexity by mapping keys to bucket indices using a hash function. Collision resolution commonly uses chaining or open addressing (linear/quadratic probing). |
+
+---
+
+### 🛡️ 3-Year Reliability Architecture
+
+To guarantee the streak remains uninterrupted across all 3 years without manual intervention:
+1. **Redundant Daily Cloud Cron:** GitHub Actions executes twice daily (`07:30 AM IST` and `07:30 PM IST`) across GitHub's global runners.
+2. **Anti-Inactivity Keepalive:** Configured with keepalive automation to prevent GitHub from auto-pausing scheduled workflows after 60 days.
+3. **Verified Contribution Authorship:** Every commit is signed and authored with `@AyushOp05`'s primary verified email (`25ug1byai286@bmsit.in`).
+4. **Deterministic Knowledge Engine:** 100+ rotating engineering concepts ensure fresh, meaningful commits every day without repetition.

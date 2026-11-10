@@ -1,23 +1,20 @@
 {
   "streak_start": "2026-11-10",
+  "target_days": 1095,
+  "target_end_date": "2029-11-10",
   "total_updates": 2,
+  "current_streak": 1,
+  "last_updated_utc": "2026-11-10 10:07:11 UTC",
+  "last_updated_ist": "2026-11-10 03:37:11 PM IST",
   "history": [
     {
+      "day": 1,
       "date": "2026-11-10",
-      "time_utc": "2026-11-10 09:57:53 UTC",
-      "time_ist": "2026-11-10 03:27:53 PM IST",
-      "topic": "Clean Code",
-      "tip": "The Boy Scout Rule: Always leave the code behind in a better state than you found it."
-    },
-    {
-      "date": "2026-11-10",
-      "time_utc": "2026-11-10 09:57:00 UTC",
-      "time_ist": "2026-11-10 03:27:00 PM IST",
-      "topic": "Python",
-      "tip": "Use list comprehensions and generator expressions for concise and memory-efficient data processing in Python."
+      "time_utc": "2026-11-10 10:07:11 UTC",
+      "time_ist": "2026-11-10 03:37:11 PM IST",
+      "category": "Data Structures",
+      "topic": "Hash Maps",
+      "insight": "Hash maps achieve average O(1) time complexity by mapping keys to bucket indices using a hash function. Collision resolution commonly uses chaining or open addressing (linear/quadratic probing)."
     }
-  ],
-  "current_streak": 1,
-  "last_updated_utc": "2026-11-10 09:57:53 UTC",
-  "last_updated_ist": "2026-11-10 03:27:53 PM IST"
+  ]
 }
