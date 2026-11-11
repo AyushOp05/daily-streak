@@ -2,8 +2,12 @@ name: 3-Year Daily Streak
 
 on:
   schedule:
-    # Runs at 02:00 UTC (07:30 AM IST) and 14:00 UTC (07:30 PM IST) every day
-    - cron: '0 2,14 * * *'
+    # Runs 4 times a day at an off-peak minute (23 past the hour) to prevent GitHub from dropping or delaying runs:
+    # 01:23 UTC -> 06:53 AM IST (Morning)
+    # 07:23 UTC -> 12:53 PM IST (Afternoon)
+    # 13:23 UTC -> 06:53 PM IST (Evening)
+    # 19:23 UTC -> 12:53 AM IST (Night)
+    - cron: '23 1,7,13,19 * * *'
   workflow_dispatch:
 
 permissions:

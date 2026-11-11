@@ -1,8 +1,8 @@
 # 🔥 3-Year GitHub Contribution Streak & Dev Vault
 
 [![3-Year Streak Goal](https://img.shields.io/badge/Goal-3%20Years%20(1095%20Days)-blueviolet?style=for-the-badge&logo=target)](https://github.com/AyushOp05/daily-streak)
-[![Streak Days](https://img.shields.io/badge/Current%20Streak-Day%201-orange?style=for-the-badge&logo=fire)](https://github.com/AyushOp05/daily-streak)
-[![Total Pushes](https://img.shields.io/badge/Pushes-4-brightgreen?style=for-the-badge&logo=github)](https://github.com/AyushOp05/daily-streak)
+[![Streak Days](https://img.shields.io/badge/Current%20Streak-Day%202-orange?style=for-the-badge&logo=fire)](https://github.com/AyushOp05/daily-streak)
+[![Total Pushes](https://img.shields.io/badge/Pushes-5-brightgreen?style=for-the-badge&logo=github)](https://github.com/AyushOp05/daily-streak)
 [![Workflow Status](https://github.com/AyushOp05/daily-streak/actions/workflows/streak.yml/badge.svg)](https://github.com/AyushOp05/daily-streak/actions)
 
 Welcome to the **3-Year Unbroken GitHub Streak Tracker** of [@AyushOp05](https://github.com/AyushOp05)!  
@@ -11,7 +11,7 @@ This project is engineered to publish daily computer science concepts, algorithm
 ---
 
 ### ⏳ 3-Year Progress Tracker
-`[░░░░░░░░░░░░░░░░░░░░]` **1 / 1095 Days** (0.09%)
+`[░░░░░░░░░░░░░░░░░░░░]` **2 / 1095 Days** (0.18%)
 
 | Target Goal | Start Date | Target Completion Date | Status |
 | :--- | :--- | :--- | :--- |
@@ -29,9 +29,9 @@ This project is engineered to publish daily computer science concepts, algorithm
 
 ---
 
-### 💡 Day 1 Tech Byte: `Hash Maps`
-> **Category:** `Data Structures`  
-> **Key Insight:** Hash maps achieve average O(1) time complexity by mapping keys to bucket indices using a hash function. Collision resolution commonly uses chaining or open addressing (linear/quadratic probing).
+### 💡 Day 2 Tech Byte: `Dijkstra's Algorithm`
+> **Category:** `Algorithms`  
+> **Key Insight:** Finds the single-source shortest path in weighted graphs with non-negative edges using a min-heap in O((V + E) log V) time.
 
 ---
 
@@ -39,6 +39,7 @@ This project is engineered to publish daily computer science concepts, algorithm
 
 | Day & Date | Category | Topic | Insight |
 | :--- | :--- | :--- | :--- |
+| Day 2 (2026-11-11) | `Algorithms` | **Dijkstra's Algorithm** | Finds the single-source shortest path in weighted graphs with non-negative edges using a min-heap in O((V + E) log V) time. |
 | Day 1 (2026-11-10) | `Data Structures` | **Hash Maps** | Hash maps achieve average O(1) time complexity by mapping keys to bucket indices using a hash function. Collision resolution commonly uses chaining or open addressing (linear/quadratic probing). |
 
 ---
