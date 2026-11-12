@@ -102,18 +102,19 @@ def build_progress_bar(current_day, total_days, bar_length=20):
 def update_streak():
     data = load_data()
     now_utc = datetime.now(timezone.utc)
-    ist_offset = timedelta(hours=5, minutes=30)
-    now_ist = now_utc + ist_offset
+    ist_tz = timezone(timedelta(hours=5, minutes=30))
+    now_ist = now_utc.astimezone(ist_tz)
 
-    date_str = now_utc.strftime("%Y-%m-%d")
+    # Always use IST date so Indian calendar day matches GitHub contribution graph
+    date_str = now_ist.strftime("%Y-%m-%d")
     timestamp_utc = now_utc.strftime("%Y-%m-%d %H:%M:%S UTC")
     timestamp_ist = now_ist.strftime("%Y-%m-%d %I:%M:%S %p IST")
 
-    # Start date calculation
+    # Start date calculation in IST
     start_date_str = data.get("streak_start", "2026-11-10")
-    start_date = datetime.strptime(start_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-    
-    current_day = max(1, (now_utc.date() - start_date.date()).days + 1)
+    start_date = datetime.strptime(start_date_str, "%Y-%m-%d").date()
+
+    current_day = max(1, (now_ist.date() - start_date).days + 1)
     data["current_streak"] = current_day
     data["total_updates"] = data.get("total_updates", 0) + 1
     data["last_updated_utc"] = timestamp_utc

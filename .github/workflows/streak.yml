@@ -2,17 +2,20 @@ name: 3-Year Daily Streak
 
 on:
   schedule:
-    # Runs 4 times a day at an off-peak minute (23 past the hour) to prevent GitHub from dropping or delaying runs:
-    # 01:23 UTC -> 06:53 AM IST (Morning)
-    # 07:23 UTC -> 12:53 PM IST (Afternoon)
-    # 13:23 UTC -> 06:53 PM IST (Evening)
-    # 19:23 UTC -> 12:53 AM IST (Night)
-    - cron: '23 1,7,13,19 * * *'
+    # 5 daily off-peak triggers during daytime IST (where UTC and IST share the exact same calendar date):
+    - cron: '17 2 * * *'   # 07:47 AM IST
+    - cron: '43 5 * * *'   # 11:13 AM IST
+    - cron: '19 9 * * *'   # 02:49 PM IST
+    - cron: '47 13 * * *'  # 07:17 PM IST
+    - cron: '13 17 * * *'  # 10:43 PM IST
   workflow_dispatch:
 
 permissions:
   contents: write
   actions: write
+
+env:
+  TZ: Asia/Kolkata
 
 jobs:
   daily-update:
@@ -40,11 +43,13 @@ jobs:
             echo "No changes detected to commit."
           else
             STREAK_DAY=$(python -c 'import json; print(json.load(open("data/streak_data.json"))["current_streak"])')
-            git commit -m "🔥 Day ${STREAK_DAY} Streak: $(date -u '+%Y-%m-%d %H:%M UTC') [skip ci]"
+            export TZ=Asia/Kolkata
+            git commit -m "🔥 Day ${STREAK_DAY} Streak: $(date '+%Y-%m-%d %H:%M IST') [skip ci]"
             git push
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TZ: Asia/Kolkata
 
       # Use native GitHub API keepalive to avoid third-party action access policies.
       - name: Self-Keepalive (Guarantee active workflow state)
