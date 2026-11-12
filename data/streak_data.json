@@ -2,11 +2,20 @@
   "streak_start": "2026-11-10",
   "target_days": 1095,
   "target_end_date": "2029-11-10",
-  "total_updates": 10,
-  "current_streak": 3,
-  "last_updated_utc": "2026-11-12 17:37:15 UTC",
-  "last_updated_ist": "2026-11-12 11:07:15 PM IST",
+  "total_updates": 11,
+  "current_streak": 4,
+  "last_updated_utc": "2026-11-12 21:06:18 UTC",
+  "last_updated_ist": "2026-11-13 02:36:18 AM IST",
   "history": [
+    {
+      "day": 4,
+      "date": "2026-11-13",
+      "time_utc": "2026-11-12 21:06:18 UTC",
+      "time_ist": "2026-11-13 02:36:18 AM IST",
+      "category": "Algorithms",
+      "topic": "Binary Search",
+      "insight": "Divides the search interval in half repeatedly on sorted collections, running in logarithmic time O(log n). Always watch out for integer overflow: use mid = low + (high - low) // 2."
+    },
     {
       "day": 3,
       "date": "2026-11-12",
