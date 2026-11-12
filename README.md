@@ -2,7 +2,7 @@
 
 [![3-Year Streak Goal](https://img.shields.io/badge/Goal-3%20Years%20(1095%20Days)-blueviolet?style=for-the-badge&logo=target)](https://github.com/AyushOp05/daily-streak)
 [![Streak Days](https://img.shields.io/badge/Current%20Streak-Day%203-orange?style=for-the-badge&logo=fire)](https://github.com/AyushOp05/daily-streak)
-[![Total Pushes](https://img.shields.io/badge/Pushes-9-brightgreen?style=for-the-badge&logo=github)](https://github.com/AyushOp05/daily-streak)
+[![Total Pushes](https://img.shields.io/badge/Pushes-10-brightgreen?style=for-the-badge&logo=github)](https://github.com/AyushOp05/daily-streak)
 [![Workflow Status](https://github.com/AyushOp05/daily-streak/actions/workflows/streak.yml/badge.svg)](https://github.com/AyushOp05/daily-streak/actions)
 
 Welcome to the **3-Year Unbroken GitHub Streak Tracker** of [@AyushOp05](https://github.com/AyushOp05)!  
